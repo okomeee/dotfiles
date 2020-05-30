@@ -1,0 +1,16 @@
+[user]
+	name = Katsuhiro Mochida
+	email = kome.o.kun@gmail.com
+[core]
+	editor = vim
+	pager = less -FRX
+[color]
+	ui = true
+[merge]
+	ff = false
+[pull]
+	ff = only
+[fetch]
+	prune = true
+[alias]
+	tree = log --graph --pretty=format:'%x09%C(auto) %h %Cgreen %ar %Creset%x09by"%C(cyan ul)%an%Creset" %x09%C(auto)%s %d'

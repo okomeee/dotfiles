@@ -1,0 +1,3 @@
+# anyenvの有効化
+eval "$(anyenv init -)"
+

@@ -1,0 +1,1 @@
+/Users/okome/dotfiles/.zsh

@@ -1,0 +1,70 @@
+# required
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+# molokaiのカラーテーマ"
+[[plugins]]
+repo = 'tomasr/molokai'
+
+# コメントアウト
+[[plugins]]
+repo = 'tomtom/tcomment_vim'
+
+# 複数行をまとめてコメントアウト
+[[plugins]]
+repo = 'tpope/vim-commentary'
+
+# ステータスバーをいい感じにする
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+
+# テーマ集
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
+
+# 様々な言語のシンタックスとインデント調整
+[[plugins]]
+repo = 'sheerun/vim-polyglot'
+
+# スニペットの拡張
+[[plugins]]
+repo = 'SirVer/ultisnips'
+[[plugins]]
+repo = 'honza/vim-snippets'
+
+# 対となる括弧を消してくれる
+[[plugins]]
+repo = 'jiangmiao/auto-pairs'
+[[plugins]]
+repo = 'tpope/vim-endwise'
+
+# インデントなどの統一
+[[plugins]]
+repo = 'editorconfig/editorconfig-vim'
+
+# カラースキーム選択
+[[plugins]]
+repo = 'Shougo/unite.vim'
+[[plugins]]
+repo = 'ujihisa/unite-colorscheme'
+
+# インデント可視化
+[[plugins]]
+repo = 'mxw/vim-jsx'
+
+# コード補完
+# [[plugins]]
+# repo = 'Valloric/YouCompleteMe'
+
+# マルチカーソル
+[[plugins]]
+repo = 'terryma/vim-multiple-cursors'
+
+# ヘルプの日本語化
+[[plugins]]
+repo = 'vim-jp/vimdoc-ja'
+
+# 置換のプレビュー
+[[plugins]]
+repo = 'markonm/traces.vim'
+
