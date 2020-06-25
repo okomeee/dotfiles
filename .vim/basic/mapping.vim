@@ -33,3 +33,12 @@ nnoremap sq :<C-u>q<CR>
 nnoremap sQ :<C-u>bd<CR>
 nnoremap sb :<C-u>Unite buffer_tab -buffer-name=file<CR>
 nnoremap sB :<C-u>Unite buffer -buffer-name=file<CR>
+
+cnoremap <C-b> <Left>
+cnoremap <C-f> <Right>
+cnoremap <C-n> <Down>
+cnoremap <C-p> <Up>
+cnoremap <C-a> <Home>
+cnoremap <C-e> <End>
+cnoremap <C-d> <Del>
+

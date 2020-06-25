@@ -151,6 +151,16 @@ set helpheight=12
 " 常にタブラインを表示
 set showtabline=2
 
+"----------------------------------------
+" 表示設定
+"----------------------------------------
+" コマンドラインモードでのtabで補完を有効
+set nocompatible
+" 補完時の設定
+" menuone：対象が1件しかなくても常に補完ウィンドウを表示
+" noinsert：補完ウィンドウを表示に挿入したい
+set completeopt=menuone,noinsert
+
 " auto reload .vimrc
 augroup source-vimrc
   autocmd!
@@ -190,3 +200,4 @@ filetype plugin on
 filetype indent on
 
 syntax enable
+set termguicolors

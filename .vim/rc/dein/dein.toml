@@ -4,7 +4,8 @@ repo = 'Shougo/dein.vim'
 
 # molokaiのカラーテーマ"
 [[plugins]]
-repo = 'tomasr/molokai'
+# repo = 'tomasr/molokai'
+repo = 'crusoexia/vim-monokai'
 
 # コメントアウト
 [[plugins]]
@@ -25,12 +26,6 @@ repo = 'vim-airline/vim-airline-themes'
 # 様々な言語のシンタックスとインデント調整
 [[plugins]]
 repo = 'sheerun/vim-polyglot'
-
-# スニペットの拡張
-[[plugins]]
-repo = 'SirVer/ultisnips'
-[[plugins]]
-repo = 'honza/vim-snippets'
 
 # 対となる括弧を消してくれる
 [[plugins]]
@@ -67,4 +62,36 @@ repo = 'vim-jp/vimdoc-ja'
 # 置換のプレビュー
 [[plugins]]
 repo = 'markonm/traces.vim'
+
+# 自動補完
+[[plugins]]
+repo = 'Shougo/neocomplete.vim'
+# スニペットの補完機能
+[[plugins]]
+repo = 'Shougo/neosnippet'
+# スニペット集
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
+
+# Vueシンタックスハイライト
+[[plugins]]
+repo = 'posva/vim-vue'
+
+# js syntax
+[[plugins]]
+repo = 'pangloss/vim-javascript'
+[[plugins]]
+repo = 'crusoexia/vim-javascript-lib'
+
+# ts syntax
+[[plugins]]
+repo = 'herringtondarkholme/yats.vim'
+
+# dart syntax
+[[plugins]]
+repo = 'dart-lang/dart-vim-plugin'
+
+# jsx syntax
+[[plugins]]
+repo = 'maxmellon/vim-jsx-pretty'
 
