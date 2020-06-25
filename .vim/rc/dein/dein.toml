@@ -4,7 +4,10 @@ repo = 'Shougo/dein.vim'
 
 # molokaiのカラーテーマ"
 [[plugins]]
-# repo = 'tomasr/molokai'
+repo = 'tomasr/molokai'
+
+# monokaiのカラーテーマ"
+[[plugins]]
 repo = 'crusoexia/vim-monokai'
 
 # コメントアウト
@@ -95,3 +98,10 @@ repo = 'dart-lang/dart-vim-plugin'
 [[plugins]]
 repo = 'maxmellon/vim-jsx-pretty'
 
+# ヤンクする場所をハイライト
+[[plugins]]
+repo = 'machakann/vim-highlightedyank'
+
+# インデントの可視化
+[[plugins]]
+repo = 'nathanaelkane/vim-indent-guides'
