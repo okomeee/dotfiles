@@ -11,6 +11,7 @@ ln -s ${HOME}/.dotfiles/.zsh/.zshenv ${HOME}/.zshenv
 ln -s ${HOME}/.dotfiles/.zsh/.zshrc ${HOME}/.zshrc
 ln -s ${HOME}/.dotfiles/.bashrc ${HOME}/.bashrc
 ln -s ${HOME}/.dotfiles/.inputrc ${HOME}/.inputrc
+ln -s ${HOME}/.dotfiles/.tmux.conf ${HOME}/.tmux.conf
 
 # 設定の反映
 exec $SHELL -l

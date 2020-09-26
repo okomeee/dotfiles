@@ -1,2 +1,2 @@
 # dotfiles
-okomeee's dotfiles
+mrkomeee's dotfiles

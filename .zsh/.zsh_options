@@ -4,5 +4,9 @@ eval "$(anyenv init -)"
 # ignore brwe doctor pyenv waring
 alias brew="PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin brew"
 
+alias j="tmux"
+alias jj="tmux kill-server"
+alias t="tmux new-session 'echo hoge' \; source-file ${HOME}/dotfiles/tmux-layout/octpane"
+
 export EDITOR=vim
 

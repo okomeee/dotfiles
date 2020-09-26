@@ -42,3 +42,10 @@ cnoremap <C-a> <Home>
 cnoremap <C-e> <End>
 cnoremap <C-d> <Del>
 
+inoremap < <><LEFT>
+
+set completeopt=menuone
+for k in split("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_", '\zs')
+  exec "imap <expr> " . k . " pumvisible() ? '" . k . "' : '" . k .  "\<C-X>\<C-P>\<C-N>'"
+endfor
+

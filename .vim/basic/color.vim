@@ -1,4 +1,8 @@
 " molokai
-" colorscheme molokai
+colorscheme molokai
 " monokai
-colorscheme monokai
+" colorscheme monokai
+" gruvbox
+" colorscheme gruvbox
+" set bg=dark
+

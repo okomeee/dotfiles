@@ -75,6 +75,8 @@ repo = 'Shougo/neosnippet'
 # スニペット集
 [[plugins]]
 repo = 'Shougo/neosnippet-snippets'
+[[plugins]]
+repo = 'violetyk/neocomplete-php.vim'
 
 # Vueシンタックスハイライト
 [[plugins]]
@@ -105,3 +107,38 @@ repo = 'machakann/vim-highlightedyank'
 # インデントの可視化
 [[plugins]]
 repo = 'nathanaelkane/vim-indent-guides'
+
+# gruvbox
+[[plugins]]
+repo = 'morhetz/gruvbox'
+
+# Git差分表示
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
+
+# HTML補完
+[[plugins]]
+repo = 'mattn/emmet-vim'
+
+# コード検索が楽ちん
+[[plugins]]
+repo = 'Shougo/unite.vim'
+[[plugins]]
+repo = 'Shougo/unite-outline'
+
+# 画面サイズ調整
+[[plugins]]
+repo = 'simeji/winresizer'
+
+# Git操作
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+
+# markdown review
+[[plugins]]
+repo = 'skanehira/preview-markdown.vim'
+
+# js整形
+[[plugins]]
+repo = 'maksimr/vim-jsbeautify'
+
