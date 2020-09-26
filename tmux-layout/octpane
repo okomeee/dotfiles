@@ -1,0 +1,10 @@
+splitw -d -t 0
+splitw -h -d -t 0
+splitw -h -d -t 2
+splitw -h -d -t 0
+splitw -h -d -t 2
+splitw -h -d -t 4
+splitw -h -d -t 6
+splitw -h -d -t 0
+
+set-window-option synchronize-panes on
